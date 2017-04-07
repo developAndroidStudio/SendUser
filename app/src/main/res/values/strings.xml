@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SendUser</string>
 
-    <!--MainActivity layout activity_main.xml-->
+    <!--ACTIVITY : MainActivity LAYOU: activity_main.xml-->
     <string name="seleccionar_contacto">SELECCIONAR CONTACTO</string>
     <string name="nombre">Nombre</string>
     <string name="telefono">Teléfono</string>
