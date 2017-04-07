@@ -5,16 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
-    tools:context="mx.com.develop.contentprovider.MainActivity">
+    tools:context="mx.com.develop.senduser.MainActivity">
 
     <Button
         android:id="@+id/btn_seleccionar_contacto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/selector_boton"
         android:text="@string/seleccionar_contacto"
+        android:drawableTint="@color/icons"
+        android:drawableLeft="@drawable/ic_seleccionar"
+        android:drawablePadding="16dp"
         android:textColor="@android:color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        tools:ignore="RtlHardcoded,UnusedAttribute" />
 
     <LinearLayout
         android:id="@+id/ll_contacto"
@@ -53,13 +57,19 @@
 
     <Button
         android:id="@+id/btn_enviar"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:layout_below="@+id/iv_contacto"
         android:layout_marginTop="16dp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/selector_boton"
         android:text="@string/enviar"
+        android:drawableTint="@color/icons"
+        android:drawableLeft="@drawable/ic_sms_enviar"
+        android:drawablePadding="16dp"
         android:textColor="@android:color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        tools:ignore="RtlHardcoded,UnusedAttribute" />
 
 </RelativeLayout>
